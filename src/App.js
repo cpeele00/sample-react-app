@@ -9,7 +9,6 @@ import MarvelLogo from './styles/img/marvel-logo.png';
 
 
 function App() {
-
   const Movies = lazy(() => import(/* webpackChunkName: "Movies" */ './features/movies/Movies'));
   const About = lazy(() => import(/* webpackChunkName: "About" */ './features/about/About'));
 
